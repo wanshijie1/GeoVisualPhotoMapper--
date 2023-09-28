@@ -1,0 +1,73 @@
+<!--
+    作者：https://github.com/wanshijie1
+    时间2023.9.25
+-->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="JS/leaflet.js"></script>
+    <script src="JS/jquery-1.12.4.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="CSS/leaflet.css"/>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"/>
+    <link rel="stylesheet" href="CSS/bootstrap_2.min.css"/>
+    <link rel="stylesheet" href="CSS/all.min.css"/>
+    <link rel="stylesheet" href="CSS/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="CSS/leaflet.awesome.rotate.min.css"/>
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_765da22b0c52c4a3842791599117ba27 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_765da22b0c52c4a3842791599117ba27" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_765da22b0c52c4a3842791599117ba27 = L.map(
+                "map_765da22b0c52c4a3842791599117ba27",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_982f7151f4df5c7b76100c297ff2bd81 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_765da22b0c52c4a3842791599117ba27);
+        
+</script>
+</html>
